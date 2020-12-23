@@ -7,4 +7,4 @@ let server = require('http').createServer(app).listen(port, function(){
 });
 
 //where we look for files
-app.use(express.static('public'));
+app.use(express.static('Cacophony_Society/browser/public'));
