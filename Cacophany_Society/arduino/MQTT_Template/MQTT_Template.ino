@@ -26,14 +26,15 @@
 
 #include <WiFiNINA.h>
 #include <ArduinoMqttClient.h>
+#include "arduino_secrets.h"
 // initialize WiFi connection:
 WiFiClient wifi;
 MqttClient mqttClient(wifi);
 
 // details for MQTT client:
-char broker[] = "public.cloud.shiftr.io";
+char broker[] = "testxmas.cloud.shiftr.io";
 int port = 1883;
-char topic[] = "notes";
+char topic[] = "distraction";
 char clientID[] = "buttonClient";
 
 // intensity of LED:
