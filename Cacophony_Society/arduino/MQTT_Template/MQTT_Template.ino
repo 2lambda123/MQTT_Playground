@@ -35,6 +35,7 @@ MqttClient mqttClient(wifi);
 char broker[] = "testxmas.cloud.shiftr.io";
 int port = 1883;
 char topic[] = "distraction";
+//char topicB[] = "stay alive";
 char clientID[] = "buttonClient";
 
 // intensity of LED:
@@ -144,6 +145,7 @@ boolean connectToBroker() {
   }
   // once you're connected, you can proceed:
   mqttClient.subscribe(topic);
+//   mqttClient.subscribe(topicB);
   // return that you're connected:
   return true;
 }
