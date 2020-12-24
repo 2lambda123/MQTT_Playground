@@ -52,7 +52,7 @@ void setup() {
   // initialize serial:
   Serial.begin(9600);
   // wait for serial monitor to open:
-  while (!Serial);
+//  while (!Serial); //commenting this so can work on external power supply
 
   // initialize I/O pins:
   pinMode(buttonPin, INPUT_PULLUP);
