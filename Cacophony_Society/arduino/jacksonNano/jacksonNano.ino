@@ -35,8 +35,8 @@ MqttClient mqttClient(wifi);
 char broker[] = "testxmas.cloud.shiftr.io";
 int port = 1883;
 char topic[] = "distraction";
-//char topicB[] = "stay alive";
-char clientID[] = "buttonClient";
+char myTopic[] = "jackson";
+char clientID[] = "jacksonNano";
 
 // intensity of LED:
 int intensity = 0;
@@ -123,7 +123,7 @@ void loop() {
     // and it's pressed:
     if (buttonState == LOW) {
       // start a new message on the topic:
-      mqttClient.beginMessage(topic);
+      mqttClient.beginMessage(myTopic);
       // add a random number as a numeric string (print(), not write()):
       mqttClient.print(random(16));
       // send the message:
@@ -145,7 +145,7 @@ boolean connectToBroker() {
   }
   // once you're connected, you can proceed:
   mqttClient.subscribe(topic);
-//   mqttClient.subscribe(topicB);
+  mqttClient.subscribe(myTopic);
   // return that you're connected:
   return true;
 }
