@@ -8,7 +8,7 @@ A network of Arduino Nano 33 IoTs getting messages from a node server. Designed 
 
 Once the free shiftr broker was set up and the mobile interface hosted on glitch, all we needed to do was plug in the nodes while the other team was counting, tape the solenoids to our noise-makers, and confirm the nanos were connected to the wifi by waiting for the on-board LED to light up and connected to the broker by pressing the push-button. Then we ran around with our phones out and cackled silently as they succumbed to our superior tactics!
 
-You can find video examples at --WILL INSERT LINK ONCE I POST THEM--
+You can find video examples at [my private instagram account](https://www.instagram.com/p/CJ9Y9tsp0hSOL6xNXwf-3zXh_5MLpf__KdTVa80) and perhaps later on [my website](https://augustluhrs.art) whenever I get around to updating that...
 
 Solenoid refresher thanks to [jts3k's Instructable!](https://www.instructables.com/Controlling-solenoids-with-arduino/).
 
