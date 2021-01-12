@@ -9,6 +9,8 @@
     created 12 June 2020
     modified 20 Aug 2020
     by Tom Igoe
+
+    slight modifications for personal use by August Luhrs Dec 2020
 */
 
 // MQTT client details:
